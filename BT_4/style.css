@@ -1,0 +1,32 @@
+body{
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+td:hover{
+    background-color: blue;
+    
+}
+.row-table-1::before{
+    
+    content: ".";
+    margin-right: 10px;
+}
+.row-table-2::before{
+    
+    content: ".";
+    margin-right: 10px;
+}
+.table{
+    text-align: center;
+}
+.table-1, .table-2{
+    display: inline-block;
+    
+}
