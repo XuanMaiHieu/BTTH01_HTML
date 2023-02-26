@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   list-style: none;
-  height: 40px;
+
 
 }
 
@@ -30,18 +30,21 @@ ul.menu>li:hover>.list-small {
   display: block;
 }
 
-.list-small {
+ul.menu>li>.list-small {
   margin: 0px;
   padding: 0px;
   position: absolute;
   display: none;
   list-style: none;
   background-color: red;
+  width: 150px;
+
 }
 
 .list-small>li {
-  width: 250px;
+  width: 100%;
   position: relative;
+
 
 }
 
@@ -49,12 +52,8 @@ ul.menu>li:hover>.list-small {
 .list-small>li>a {
   display: block;
   color: white;
-  display: block;
   text-decoration: none;
-  text-align: center;
-
 }
-
 
 .list-small>li>a:hover {
   background-color: blue;
